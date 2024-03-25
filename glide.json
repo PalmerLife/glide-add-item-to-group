@@ -1,0 +1,25 @@
+{
+  "kind": "column",
+  "name": "Append Series With Numbers",
+  "description": "Appends a series of numbers with new numbers to meet a desired quantity. The new numbers are greater than the current largest number in the series and increase by one.",
+  "author": "Mark Palmer <success@palmerlife.com>",
+  "params": [
+    {
+      "name": "numbers",
+      "displayName": "Series of Numbers",
+      "type": "string",
+      "description": "A comma-separated series of numbers."
+    },
+    {
+      "name": "desiredQuantity",
+      "displayName": "Desired Quantity",
+      "type": "number",
+      "description": "The total desired quantity of numbers in the final series."
+    }
+  ],
+  "result": {
+    "type": "string",
+    "description": "The final series of numbers as a comma-separated string."
+  }
+}
+
