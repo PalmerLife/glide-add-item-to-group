@@ -1,6 +1,6 @@
 {
   "kind": "column",
-  "name": "Append Series With Numbers",
+  "name": "Add New Numbers to the Current Order",
   "description": "Appends a series of numbers with new numbers to meet a desired quantity. The new numbers are greater than the current largest number in the series and increase by one.",
   "author": "Mark Palmer <success@palmerlife.com>",
   "params": [
